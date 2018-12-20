@@ -116,7 +116,7 @@
         document.title = this.$t('Cancer Risks')
         this.headful.title = this.$t('Cancer Risks')
         this.headful.description = this.$t('share_text')
-        this.headful.image = `http://blog.nkb.fr/cancer-risks/share_${lang}.jpg`
+        this.headful.image = `http://blog.nkb.fr/cancer-risks/share_${lang}.png`
         var original_location = window.location.origin
         if (process.env.NODE_ENV === 'production') { original_location += "/cancer-risks" }
         window.history.pushState({}, "", original_location + "/" + lang + "/");
