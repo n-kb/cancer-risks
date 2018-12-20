@@ -31,10 +31,14 @@ FILEAPPNAME=$(ls dist/js | grep 'app\..*\.js$')
 
 # Replaces app.js in the files
 sed -i "s/\/app\.js/\/cancer-risks\/js\/$FILEAPPNAME/g" dist/de/index.html
+sed -i "s/\/app\.js/\/cancer-risks\/js\/$FILEAPPNAME/g" dist/fr/index.html
+sed -i "s/\/app\.js/\/cancer-risks\/js\/$FILEAPPNAME/g" dist/en/index.html
 
 # Same thing for vendors-chunck
 FILEAPPNAME=$(ls dist/js | grep 'chunk.*\.js$')
-sed -i "s/<script/<script src=\/cancer-risks\/js\/$FILEAPPNAME><\/script><script/g" dist/de/index.html
+sed -i "s/<script/<script src=\"\/cancer-risks\/js\/$FILEAPPNAME\"><\/script><script/g" dist/de/index.html
+sed -i "s/<script/<script src=\"\/cancer-risks\/js\/$FILEAPPNAME\"><\/script><script/g" dist/fr/index.html
+sed -i "s/<script/<script src=\"\/cancer-risks\/js\/$FILEAPPNAME\"><\/script><script/g" dist/en/index.html
 
 # rename dist dir
 rm -r docs
