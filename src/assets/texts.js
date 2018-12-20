@@ -146,8 +146,8 @@ const messages = {
         persons: "Personnen",
         a_cancer: "Krebs",
         cancer_type: `{cancer}-Krebs`,
-        sentence_right: `Von {amount} {persons}, die {action}, werden <span class="big-number">{rate}</span> im Zuge ihres Lebens {cancer_type} haben.`,
-        sentence_left: `Von {amount} {persons} der Gesamtbevölkerung, werden <span class="big-number">{rate}</span> im Zuge ihres Lebens {cancer_type} haben.`
+        sentence_right: `Aus {amount} {persons}, die {action}, werden <span class="big-number">{rate}</span> im Zuge ihres Lebens {cancer_type} haben.`,
+        sentence_left: `Aus {amount} {persons} der Gesamtbevölkerung, werden <span class="big-number">{rate}</span> im Zuge ihres Lebens {cancer_type} haben.`
      },
      copy: {
         main: `
