@@ -33,7 +33,7 @@ FILEAPPNAME=$(ls dist/js | grep 'app\..*\.js$')
 sed -i "s/\/app\.js/\/cancer-risks\/js\/$FILEAPPNAME/g" dist/de/index.html
 
 # Same thing for vendors-chunck
-FILEAPPNAME=$(ls dist/js | grep 'chunk\..*\.js$')
+FILEAPPNAME=$(ls dist/js | grep 'chunk.*\.js$')
 sed -i "s/<script/<script src=\/cancer-risks\/js\/$FILEAPPNAME><\/script><script/g" dist/de/index.html
 
 # rename dist dir
