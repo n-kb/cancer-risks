@@ -92,8 +92,8 @@ const messages = {
   de: {
      lede: 'Krebsrisikofaktoren leicht verstehen. Zurzeit sind {risks} Risikofaktoren vergleichbar.',
      'Newsletter': 'Newsletter',
-     newsletter1: 'Hinterlassen Sie Ihre Email Adresse um meine nächsten Essays (meistens auf Englisch) direkt per Email zu bekommen.',
-     'Your e-mail address here': 'Ihre Email Adresse hier',
+     newsletter1: 'Hinterlassen Sie Ihre E-Mailadresse um meine nächsten Essays (meistens auf Englisch) direkt per E-Mail zu bekommen.',
+     'Your e-mail address here': 'Ihre E-Mailadresse hier',
      'Submit': 'Abschicken',
      'An interactive database by': 'Eine Datenbank von',
      'Share': 'Teilen',
@@ -127,7 +127,7 @@ const messages = {
         "all": "Alle"
      },
      actions: {
-        "drink50g": "50 Gramm pures Alkohols (etwa 1 Liter Bier) pro Tag trinken",
+        "drink50g": "50 Gramm puren Alkohol (etwa 1 Liter Bier) pro Tag trinken",
         "useDeodorant": "jeden Tag ein Aluminum-Deo nutzen",
         "eat50gprocessedmeat": "jeden Tag 50 Gramm verarbeitetes Fleisch essen",
         "eat100gredmeat": "jeden Tag 100 Gramm rotes Fleisch essen",
@@ -139,11 +139,11 @@ const messages = {
      },
      comparator: {
         source: `Quelle: {source} <a href="{source_url}" target="_blank">Link</a>.`,
-        disclaimer: "Wissenschaftler haben mehrere Studie zum Thema geführt und konnten keinen Zusammenhang zwischen Krebs und diesem Faktor finden. ",
-        nonsmokers: "Nichtraucher",
+        disclaimer: "Wissenschaftler haben mehrere Studien zum Thema durchgeführt und konnten keinen Zusammenhang zwischen Krebs und diesem Faktor finden. ",
+        nonsmokers: "Nichtrauchern",
         males: "Männer",
         females: "Frauen",
-        persons: "Personnen",
+        persons: "Personen",
         a_cancer: "Krebs",
         cancer_type: `{cancer}-Krebs`,
         sentence_right: `Aus {amount} {persons}, die {action}, werden <span class="big-number">{rate}</span> im Zuge ihres Lebens {cancer_type} haben.`,
@@ -152,19 +152,19 @@ const messages = {
      copy: {
         main: `
         <p>
-          Aspirin <a href="https://www.dailymail.co.uk/health/article-205490/Asprin-link-cancer-risk.html" target="_blank">ist krebserregend</a>, schrieb eines Tages die <em>Daily Mail</em>. Aspirin sei auch <a href="https://www.dailymail.co.uk/health/article-1174691/Taking-aspirin-40s-cuts-cancer-risk.html" target="_blank">krebsschützend</a>, schrieb die eines anderen Tages. Zwiebel <a href="https://www.dailymail.co.uk/health/article-207275/Onions-fight-prostate-cancer.html" target="_blank">vermindern</a> das Krebsrisiko und künstliches Licht <a href="https://www.dailymail.co.uk/health/article-391267/Artificial-light-increases-breast-cancer-risk.html" target="_blank">erhöht</a> es.
+          Aspirin <a href="https://www.dailymail.co.uk/health/article-205490/Asprin-link-cancer-risk.html" target="_blank">ist krebserregend</a>, schrieb eines Tages die <em>Daily Mail</em>. Aspirin sei auch <a href="https://www.dailymail.co.uk/health/article-1174691/Taking-aspirin-40s-cuts-cancer-risk.html" target="_blank">krebsschützend</a>, schrieb sie an einem anderen Tag. Zwiebeln <a href="https://www.dailymail.co.uk/health/article-207275/Onions-fight-prostate-cancer.html" target="_blank">vermindern</a> das Krebsrisiko und künstliches Licht <a href="https://www.dailymail.co.uk/health/article-391267/Artificial-light-increases-breast-cancer-risk.html" target="_blank">erhöht</a> es.
         </p>
         <p>
-          Diese Beispiele sind aus der geniale <a href="http://kill-or-cure.herokuapp.com" target="_blank">Kill or Cure</a> entnommen, eine Liste von allem, was die <em>Daily Mail</em> als krebserregend oder krebsschützend (oder beides) jemals eingestüft hat. Dass die <em>Mail</em> schwachen Journalismus produziert ist keine Neuheit, aber auch gute Zeitungen können manchmal irreführende Beiträge veröffentlichen, besonders wenn es um Krebsrisiken geht.
+          Diese Beispiele sind aus der geniale <a href="http://kill-or-cure.herokuapp.com" target="_blank">Kill or Cure</a> entnommen, einer Liste von allem, was die <em>Daily Mail</em> jemals als krebserregend oder krebsschützend (oder beides) eingestuft hat. Dass die <em>Mail</em> schwachen Journalismus produziert ist keine Neuheit, aber auch gute Zeitungen können manchmal irreführende Beiträge veröffentlichen, besonders wenn es um Krebsrisiken geht.
         </p>
         <p>
-          Viele Journalisten verstehen wissenschaftliche Artikel nur kaum. Andererseits verschönen viele PR-Abteilungen von Universitäten ihre Pressemitteilungen, damit eine Studie mehr Aufmerksamkeit bekommt, als sie es Wert ist. Es ist am Ende sehr schwierig, einen einfachen Zugang zum Wissenschaftszustand im Bereich Krebsrisikofaktoren zu bekommen.</p>
+          Viele Journalisten verstehen wissenschaftliche Artikel wenig. Andererseits verschönern viele PR-Abteilungen von Universitäten ihre Pressemitteilungen, damit eine Studie mehr Aufmerksamkeit bekommt, als sie es Wert ist. Es ist am Ende sehr schwierig, einen einfachen Zugang zum Wissenschaftszustand im Bereich Krebsrisikofaktoren zu bekommen.</p>
         <img src="https://blog.nkb.fr/cancer-risks/graph_de.png" />
         <p>
-          Mehrere Gruppen von Wissenschaftlern sammeln und evaluieren Studien zu diesem Thema, insbesondere die Internationale Agentur für Krebsforschung. Ihre Monographien sind zwar sehr umfassend, aber nicht immer leicht zu lesen. Ich habe einige gelesen und die Daten zu den Krebsrisikofaktoren extrahiert. Die Zahlen, die unten zu lesen sind, sind nicht definitiv (der Grund eines Krebses genau zu identifizieren ist extrem schwierig) aber derer Größenordnungen sind wahrscheinlich informativer als die Schlagzeilen einiger Zeitungen.
+          Mehrere Gruppen von Wissenschaftlern sammeln und evaluieren Studien zu diesem Thema, insbesondere die Internationale Agentur für Krebsforschung. Ihre Monographien sind zwar sehr umfassend, aber nicht immer leicht zu lesen. Ich habe einige gelesen und die Daten zu den Krebsrisikofaktoren extrahiert. Die Zahlen, die unten zu lesen sind, sind nicht definitiv (den Grund eines Krebses genau zu identifizieren ist extrem schwierig) aber die Größenordnungen sind wahrscheinlich informativer als die Schlagzeilen einiger Zeitungen.
         </p>
         <p>
-          Wählen Sie ein Risikofaktor und eine Art von Krebs und sehen Sie, wie das absolute Risiko sich ändert.
+          Wählen Sie einen Risikofaktor und eine Art von Krebs und sehen Sie, wie das absolute Risiko sich ändert.
         </p>`,
         limitations: `
         <h2>Einschränkungen</h2>
@@ -172,10 +172,10 @@ const messages = {
           Die Daten zum Krebsrisiko in der Gesamtbevölkerung kommen aus den Vereinigten Staaten. Die Lage in Ihrem Land kann anders sein.
         </p>
         <p>
-          Dass keinen Zusammenhang zwischen einem Risikofaktor und einem Krebs gefunden war, heißt nicht, dass keinen existiert. (Es ist sowieso logisch ausgesehen unmöglich, eine solche Abwesenheit zu beweisen). Vielleicht wird irgendwann eine Studie einen solchen Zusammenhang beweisen. Die Beispiele in diesem Artikel wurden aber alle von mehreren Studien geforscht und keine davon könnte einen Zusammenhang beweisen.
+          Dass kein Zusammenhang zwischen einem Risikofaktor und einem Krebs gefunden wurde, heißt nicht, dass keiner existiert. (Es ist sowieso logisch gesehen unmöglich, eine solche Abwesenheit zu beweisen). Vielleicht wird irgendwann eine Studie einen solchen Zusammenhang beweisen. Die Beispiele in diesem Artikel wurden aber alle von mehreren Studien erforscht und keine davon konnte einen Zusammenhang beweisen.
         </p>
         <p>
-          Da ich kein Onkologe bin, habe ich Fehler machen können. Die Daten, die ich benutzt habe, sind <a href="https://docs.google.com/spreadsheets/d/1QTflR63InxdWNeJGgpYgnd7rCC_r7SzZlOTiyGnkQHw/edit?usp=sharing">in dieser Tabelle zu finden</a>. Schicken Sie mir eine Nachricht an hi@nkb.fr falls etwas Ihnen stört, oder wenn Sie ein anderes Risikofaktor hinzufügen möchten.
+          Da ich kein Onkologe bin, ist es möglich, dass ich Fehler gemacht habe. Die Daten, die ich benutzt habe, sind <a href="https://docs.google.com/spreadsheets/d/1QTflR63InxdWNeJGgpYgnd7rCC_r7SzZlOTiyGnkQHw/edit?usp=sharing">in dieser Tabelle zu finden</a>. Schicken Sie mir eine Nachricht an hi@nkb.fr falls etwas Sie stört, oder wenn Sie einen anderen Risikofaktor hinzufügen möchten.
         </p>`
      }
     },
