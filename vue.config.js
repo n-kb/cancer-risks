@@ -34,7 +34,7 @@ module.exports = {
 	            sortAttributes: true,
 	          },
 	          renderer: new Renderer({
-	            renderAfterElementExists: '#app',
+	            renderAfterTime: 3000,
 	          }),
 	        }),
 	      ],
