@@ -25,6 +25,10 @@ module.exports = {
 	        new PrerenderSPAPlugin({
 	          staticDir: path.join(__dirname, '/dist/'),
 	          routes: ['/', '/en/', '/fr/', '/de/'],
+	          postProcessHtml: function(renderedRoute) {
+	          	renderedRoute.html = renderedRoute.html.replace(/\/app\.js/g, "/cancer-risks/app.js")
+	          	return renderedRoute
+	          },
 	          minify: {
 	            collapseBooleanAttributes: true,
 	            collapseWhitespace: true,
