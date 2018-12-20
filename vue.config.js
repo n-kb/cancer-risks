@@ -35,6 +35,7 @@ module.exports = {
 	          },
 	          renderer: new Renderer({
 	            renderAfterTime: 3000,
+	            headless: false
 	          }),
 	        }),
 	      ],
