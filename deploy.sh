@@ -27,7 +27,7 @@ mv lang/de dist/de
 rm -r lang
 
 # Finds the name of app.js
-FILEAPPNAME=$(ls docs/js | grep 'app\..*\.js$')
+FILEAPPNAME=$(ls dist/js | grep 'app\..*\.js$')
 
 # Replaces app.js in the files
 sed -i "s/\/app\.js/\/cancer-risks\/js\/$FILEAPPNAME/g" dist/de/index.html
