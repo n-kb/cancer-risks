@@ -10,6 +10,22 @@ wget  -O src/assets/baserate.csv "https://docs.google.com/spreadsheets/d/e/2PACX
 # build
 npm run build -- --mode=prerender
 
+# saves the lang dirs safely
+mkdir lang
+mv dist/en lang/en
+mv dist/fr lang/fr
+mv dist/de lang/de
+
+# builds again
+npm run build
+
+# moves the lang files back
+mv lang/en dist/en
+mv lang/fr dist/fr
+mv lang/de dist/de
+
+rm -r lang
+
 # rename dist dir
 rm -r docs
 mv dist docs
