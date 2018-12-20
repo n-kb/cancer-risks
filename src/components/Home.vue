@@ -118,6 +118,7 @@
         this.headful.description = this.$t('share_text')
         this.headful.image = `http://blog.nkb.fr/cancer-risks/share_${lang}.jpg`
         var original_location = window.location.origin
+        if (process.env.NODE_ENV === 'production') { original_location += "/cancer-risks" }
         window.history.pushState({}, "", original_location + "/" + lang + "/");
       }
     }

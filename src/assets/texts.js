@@ -68,7 +68,7 @@ const messages = {
         </p>
         <p>
           Because few journalists understand scientific articles and many universities are prone to hyping insignificant results, it can be hard to access solid evidence on cancer risks.</p>
-        <img src="/graph_en.png" />
+        <img src="https://blog.nkb.fr/cancer-risks/graph_en.png" />
         <p>
           Several groups of scientists compile the available evidence on cancer risks, most notably the International Agency for Research on Cancer. Their monographies are comprehensive but hard to read. I extracted the risk-related data to make it easily digestible. The numbers below are not definitive (establishing the cause of a cancer is notoriously difficult) but the orders of magnitude they convey are more informative that the headlines in most news reports.
         </p>
@@ -168,7 +168,7 @@ const messages = {
         </p>
         <p>
           D'une part, peu de journalistes sont à l'aise avec les articles scientifiques. D'autre part, les universités n'hésitent pas à déformer des résultats pour embellir un communiqué de presse. Au final, il est très difficile de connaître l'état de la recherche sur les facteurs de risques de cancer.</p>
-        <img src="/graph_fr.png" />
+        <img src="https://blog.nkb.fr/cancer-risks/graph_fr.png" />
         <p>
           Plusieurs consortiums de scientifiques évaluent et compilent les études sur le sujet, notamment le Centre international de recherche sur le cancer. Ses monographies sont très complètes mais pas évidentes à lire. J'en ai extrait les données sur les risques pour les rendre plus facilement compréhensibles. Les chiffres ci-dessous ne sont pas définitifs (établir la cause précise d'un cancer est particulièrement difficile) mais leurs ordres de grandeur sont sans doute plus informatifs que les gros titres de certains journaux.
         </p>
