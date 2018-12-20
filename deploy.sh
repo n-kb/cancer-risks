@@ -8,7 +8,7 @@ wget  -O src/assets/cancer.csv "https://docs.google.com/spreadsheets/d/e/2PACX-1
 wget  -O src/assets/baserate.csv "https://docs.google.com/spreadsheets/d/e/2PACX-1vSIEsmlLoR5YoMBeCjHP7Sf_fLn6S8cM2K-UtpwLL0WdjukJbBcyBxynDZjEE1-EwOjKRA0s4AZ4oqP/pub?gid=1374610629&single=true&output=csv"
 
 # build
-npm run build
+npm run build -- --mode=prerender
 
 # rename dist dir
 rm -r docs

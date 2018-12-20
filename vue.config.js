@@ -19,12 +19,11 @@ module.exports = {
 		.end();
 	},
 	configureWebpack: config => {
-	    if (process.env.NODE_ENV !== 'production') return;
-
+	    if (process.env.NODE_ENV !== 'prerender') return;
 	    return {
 	      plugins: [
 	        new PrerenderSPAPlugin({
-	          staticDir: path.join(__dirname, 'dist'),
+	          staticDir: path.join(__dirname, '/dist/'),
 	          routes: ['/', '/en/', '/fr/', '/de/'],
 	          minify: {
 	            collapseBooleanAttributes: true,
@@ -34,7 +33,8 @@ module.exports = {
 	            sortAttributes: true,
 	          },
 	          renderer: new Renderer({
-	            renderAfterTime: 3000,
+	            //renderAfterElementExists: '#app',
+	            renderAfterTime: 20000,
 	            headless: false
 	          }),
 	        }),
