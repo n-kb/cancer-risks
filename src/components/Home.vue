@@ -65,6 +65,8 @@
                     </form>
                   </div>
                 </article>
+                <hr />
+                <div v-html="$t('copy.acknowledgement')" ></div>
               </div>
             </div>
           </div>

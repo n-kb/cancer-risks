@@ -86,7 +86,9 @@ const messages = {
         </p>
         <p>
           Not being an oncologist, I might have made mistakes. The data is available in <a href="https://docs.google.com/spreadsheets/d/1QTflR63InxdWNeJGgpYgnd7rCC_r7SzZlOTiyGnkQHw/edit?usp=sharing">this spreadsheet</a>. Do send me an e-mail at hi@nkb.fr if something is amiss or if you would like to add data on a different risk factor.
-        </p>`
+        </p>`,
+        acknowledgement: `
+        <p>The interactive part was made with the <a href="https://github.com/propublica/weepeople" target="_blank">Weepeople</a> font, which Alberto Cairo made for ProPublica.</p>`
      }
   },
   de: {
@@ -176,7 +178,9 @@ const messages = {
         </p>
         <p>
           Da ich kein Onkologe bin, ist es möglich, dass ich Fehler gemacht habe. Die Daten, die ich benutzt habe, sind <a href="https://docs.google.com/spreadsheets/d/1QTflR63InxdWNeJGgpYgnd7rCC_r7SzZlOTiyGnkQHw/edit?usp=sharing">in dieser Tabelle zu finden</a>. Schicken Sie mir eine Nachricht an hi@nkb.fr falls etwas Sie stört, oder wenn Sie einen anderen Risikofaktor hinzufügen möchten.
-        </p>`
+        </p>`,
+        acknowledgement: `
+        <p>Die Grafik wurde mit der von ProPublica hergestellten <a href="https://github.com/propublica/weepeople" target="_blank">Weepeople</a>-Schrift gemacht.</p>`
      }
     },
   fr: {
@@ -266,7 +270,9 @@ const messages = {
         </p>
         <p>
           Je ne suis pas oncologue et j'ai pu faire des erreurs. Les données utilisées sont disponibles dans <a href="https://docs.google.com/spreadsheets/d/1QTflR63InxdWNeJGgpYgnd7rCC_r7SzZlOTiyGnkQHw/edit?usp=sharing">cette feuille de calcul</a>. Envoyez moi un message à hi@nkb.fr si quelque chose vous tracasse ou si vous voulez ajouter un facteur de risque.
-        </p>`
+        </p>`,
+        acknowledgement: `
+        <p>L'infographie utilise la police <a href="https://github.com/propublica/weepeople" target="_blank">Weepeople</a>, créée par Alberto Cairo pour ProPublica.</p>`
      }
   }
 }
