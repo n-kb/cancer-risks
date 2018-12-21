@@ -95,7 +95,7 @@ export default {
       // Changes gender if need be
       this.active_gender = this.cancers.list[this.cancers.active].gender
 
-      var cancer_type = this.$t('comparator.cancer_type', {cancer: this.$t('cancers.' + this.cancers.active).replace(/ /g, "-")}) 
+      var cancer_type = this.$t('comparator.cancer_type', {cancer: this.$t('cancers.' + this.cancers.active)}) 
       if (this.cancers.active == "all") { cancer_type = this.$t('comparator.a_cancer') }
 
       var persons = this.$t("comparator.persons")
@@ -128,7 +128,7 @@ export default {
 
       var action = this.$t('actions.' + this.factors.list[this.factors.active][this.cancers.active].factor_detail)
       
-      var cancer_type = this.$t('comparator.cancer_type', {cancer: this.$t('cancers.' + this.cancers.active).replace(/ /g, "-")}) 
+      var cancer_type = this.$t('comparator.cancer_type', {cancer: this.$t('cancers.' + this.cancers.active)}) 
       if (this.cancers.active == "all") { cancer_type = this.$t("comparator.a_cancer") }
       var persons = this.$t("comparator.persons")
       if (this.active_gender == "female") {

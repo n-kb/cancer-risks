@@ -114,16 +114,16 @@ const messages = {
         'hairdresser': 'Friseur (Job)'
      },
      cancers: {
-        "colorectum": "Dickdarm",
-        "oral_cavity_and_pharynx": "Rachen und Mund",
-        "larynx": "Kehlkopf",
-        'lung': 'Lunge',
-        'bladder': 'Blase',
-        'lung_smoke': 'Lunge',
-        'brain': 'Gehirn',
-        'pancreas': 'Bauchspeicheldrüse',
-        "oesophagus": "Speiseröhre",
-        "female_breast": "Weibliche Brust",
+        "colorectum": "Dickdarmkrebs",
+        "oral_cavity_and_pharynx": "Rachen-und-Mund-Krebs",
+        "larynx": "Kehlkopfkrebs",
+        'lung': 'Lungenkrebs',
+        'bladder': 'Blasenkrebs',
+        'lung_smoke': 'Lungenkrebs',
+        'brain': 'Gehirntumor',
+        'pancreas': 'Bauchspeicheldrüsenkrebs',
+        "oesophagus": "Speiseröhrenkrebs",
+        "female_breast": "Brustkrebs (Frauen)",
         "all": "Alle"
      },
      actions: {
@@ -145,7 +145,7 @@ const messages = {
         females: "Frauen",
         persons: "Personen",
         a_cancer: "Krebs",
-        cancer_type: `{cancer}-Krebs`,
+        cancer_type: `{cancer}`,
         sentence_right: `Aus {amount} {persons}, die {action}, werden <span class="big-number">{rate}</span> im Zuge ihres Lebens {cancer_type} haben.`,
         sentence_left: `Aus {amount} {persons} der Gesamtbevölkerung, werden <span class="big-number">{rate}</span> im Zuge ihres Lebens {cancer_type} haben.`
      },
@@ -204,16 +204,16 @@ const messages = {
         'hairdresser': 'Coiffeur (profession)'
      },
      cancers: {
-        "colorectum": "côlon",
-        "oral_cavity_and_pharynx": "pharynx et bouche",
-        "larynx": "larynx",
-        'lung': 'poumon',
-        'bladder': 'vessie',
-        'lung_smoke': 'poumon',
-        'brain': 'cerveau',
-        'pancreas': 'pancréas',
-        "oesophagus": "œsophage",
-        "female_breast": "sein féminin",
+        "colorectum": "cancer du côlon",
+        "oral_cavity_and_pharynx": "cancer du pharynx et de la bouche",
+        "larynx": "cancer du larynx",
+        'lung': 'cancer du poumon',
+        'bladder': 'cancer de la vessie',
+        'lung_smoke': 'cancer du poumon',
+        'brain': 'tumeur au cerveau',
+        'pancreas': 'cancer du pancréas',
+        "oesophagus": "cancer de l'œsophage",
+        "female_breast": "cancer du sein (féminin)",
         "all": "tous"
      },
      actions: {
@@ -235,7 +235,7 @@ const messages = {
         females: "femmes",
         persons: "personnes",
         a_cancer: "un cancer",
-        cancer_type: `un cancer ({cancer})`,
+        cancer_type: `un {cancer}`,
         sentence_right: `Pour {amount} {persons} qui {action}, <span class="big-number">{rate}</span> ont {cancer_type} au cours de leur vie.`,
         sentence_left: `Pour {amount} {persons} parmi l'ensemble de la population, <span class="big-number">{rate}</span> ont {cancer_type} au cours de leur vie.`
      },
