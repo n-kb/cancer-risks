@@ -1,8 +1,6 @@
-# License to Kill
+# Cancer risks
 
-An analysis of 88 cases of homicides against cyclists and pedestrians in Berlin.
-
-[Link to the data](https://docs.google.com/spreadsheets/d/16t2Gke1nm5-s5RRgVtULHmxDTI3IpGg98Bqokh7G4zo/edit?usp=sharing).
+An easy-to-understand place to compare absolute cancer risks.
 
 ## Project setup
 ```
