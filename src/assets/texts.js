@@ -35,7 +35,7 @@ const messages = {
         'pancreas': 'pancreas',
         "oesophagus": "oesophagus",
         "female_breast": "female breast",
-        "uterus": "uterus",
+        "uterus": "endometrial (uterine)",
         "cervix": "cervix",
         "ovaries": "ovaries",
         "melanoma": "melanoma",
