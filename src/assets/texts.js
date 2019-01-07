@@ -218,7 +218,7 @@ const messages = {
         'mobile_phones': 'Téléphones portables',
         'cig_smoke': 'Cigarettes',
         'hairdresser': 'Coiffeur (profession)',
-        'pill': 'Pilile contraceptive'
+        'pill': 'Pilule contraceptive'
      },
      cancers: {
         "colorectum": "cancer du côlon",
