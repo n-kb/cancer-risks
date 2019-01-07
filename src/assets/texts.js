@@ -21,7 +21,8 @@ const messages = {
         'air_pollution': 'Air pollution',
         'mobile_phones': 'Mobile phones',
         'cig_smoke': 'Cigarette smoke',
-        'hairdresser': 'Hairdresser (work as)'
+        'hairdresser': 'Hairdresser (work as)',
+        'pill': 'Combined oral contraceptive pill'
      },
      cancers: {
         "colorectum": "colorectum",
@@ -34,6 +35,10 @@ const messages = {
         'pancreas': 'pancreas',
         "oesophagus": "oesophagus",
         "female_breast": "female breast",
+        "uterus": "uterus",
+        "cervix": "cervix",
+        "ovaries": "ovaries",
+        "melanoma": "melanoma",
         "all": "all"
      },
      actions: {
@@ -45,7 +50,8 @@ const messages = {
         "live20mug": "live in a city with a concentration of PM<sub>2.5</sub> over 20μg/m<sup>3</sup> (about the level of pollution in Berlin)",
         "cellphone": "hold a cell phone to their ear for less than 30 minutes per day",
         'smoke': 'smoke around 20 cigarettes per day',
-        'work_as_hairdresser': 'work as a hairdresser for about 10 years'
+        'work_as_hairdresser': 'work as a hairdresser for about 10 years',
+        'take_pill': 'use the combined oral contraceptive pill'
      },
      comparator: {
         source: `Source: {source} <a href="{source_url}" target="_blank">Link</a>.`,
@@ -113,7 +119,8 @@ const messages = {
         'air_pollution': 'Luftverschmutzung',
         'mobile_phones': 'Handys',
         'cig_smoke': 'Rauchen',
-        'hairdresser': 'Friseur (Job)'
+        'hairdresser': 'Friseur (Job)',
+        'pill': 'Oestrogen-Progesteron Pille'
      },
      cancers: {
         "colorectum": "Dickdarmkrebs",
@@ -126,6 +133,10 @@ const messages = {
         'pancreas': 'Bauchspeicheldrüsenkrebs',
         "oesophagus": "Speiseröhrenkrebs",
         "female_breast": "Brustkrebs (Frauen)",
+        "uterus": "Endometriumkarzinom",
+        "cervix": "Zervixkarzinom",
+        "ovaries": "Ovarialkarzinom",
+        "melanoma": "Malignes Melanom",
         "all": "Alle"
      },
      actions: {
@@ -137,7 +148,8 @@ const messages = {
         "live20mug": "in einer Stadt leben, wo die PM<sub>2.5</sub>-Konzentration einen Jahresdurchschnitt von 20μg/m<sup>3</sup> überschreitet (entspricht die Luftverschmutzung Berlins)",
         "cellphone": "jeden Tag weniger als 30 Minuten ihr Handy am Ohr haben",
         'smoke': 'ungefähr 20 Zigaretten pro Tag rauchen',
-        'work_as_hairdresser': 'mindestens 10 Jahren als Friseur gearbeitet haben'
+        'work_as_hairdresser': 'mindestens 10 Jahren als Friseur gearbeitet haben',
+        'take_pill': 'die Pille nehmen'
      },
      comparator: {
         source: `Quelle: {source} <a href="{source_url}" target="_blank">Link</a>.`,
@@ -205,7 +217,8 @@ const messages = {
         'air_pollution': 'Pollution atmosphérique',
         'mobile_phones': 'Téléphones portables',
         'cig_smoke': 'Cigarettes',
-        'hairdresser': 'Coiffeur (profession)'
+        'hairdresser': 'Coiffeur (profession)',
+        'pill': 'Pilile contraceptive'
      },
      cancers: {
         "colorectum": "cancer du côlon",
@@ -218,6 +231,10 @@ const messages = {
         'pancreas': 'cancer du pancréas',
         "oesophagus": "cancer de l'œsophage",
         "female_breast": "cancer du sein (féminin)",
+        "uterus": "cancer de l'endomètre",
+        "cervix": "cancer du col utérin",
+        "ovaries": "cancer de l'ovaire",
+        "melanoma": "mélanome",
         "all": "tous"
      },
      actions: {
@@ -229,7 +246,8 @@ const messages = {
         "live20mug": "vivent dans une ville où la concentration en PM<sub>2.5</sub> dépasse 20μg/m<sup>3</sup> (un peu plus que la moyenne annuelle à Paris)",
         "cellphone": "ont un téléphone à l'oreille moins de 30 minutes par jour",
         'smoke': 'fument environ 20 cigarettes par jour',
-        'work_as_hairdresser': 'travaillent en tant que coiffeur pendant au moins 10 ans'
+        'work_as_hairdresser': 'travaillent en tant que coiffeur pendant au moins 10 ans',
+        'take_pill': 'prennent la pilule'
      },
      comparator: {
         source: `Source: {source} <a href="{source_url}" target="_blank">Lien</a>.`,
